@@ -10,7 +10,7 @@ h1, h2 {
     color: #e5e5e5e7;
 }
 
-p, li {
+p, li, .fas {
     color: #e5e5e593;
 }
 
@@ -19,10 +19,86 @@ a {
     color: #e5e5e593;
 }
 
-header {
-    background-color: #040517;
-}
-
 main {
     background-color: rgb(32, 15, 86) ;
+}
+
+header.sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #040517;
+}
+header.sidenav .profile {
+    display: flex;
+    width: 90%;
+    height: 40%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header.sidenav .profile .img-container {
+    width: 50%;
+    border-radius: 8px;    
+    padding: 10px;
+}
+
+header.sidenav .profile img {
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;    
+    object-fit: cover;
+}
+
+header.sidenav .profile .txt-container {
+    width: 50%;
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+main.container {
+    margin-left: 250px;
+    flex-direction: column;
+}
+
+
+.searchbar {
+width: 100%;
+padding: 20px 5%;
+
+display: flex;
+
+
+}
+
+.searchbar input {
+    background: none;
+    
+    border: none;
+    
+    width: 100%;
+    
+    outline: none;
+    
+    margin-left: 10px;
+}
+.container h1, .container h2 {
+    padding: 15px 5% 0;
+}
+
+.playlists {
+    width: 100%;
+    padding: 20px 5%;
+    display: flex;
+}
+.playlists .playlist-card {
+
+}
+.playlists .playlist-card img {
+    width: 300px;
+    height: 200px;  
+    border-radius: 8px;
 }
