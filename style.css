@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+}
+
+h1, h2 {
+    color: #e5e5e5e7;
+}
+
+p, li {
+    color: #e5e5e593;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e5e593;
+}
+
+header {
+    background-color: #040517;
+}
+
+main {
+    background-color: rgb(32, 15, 86) ;
+}
