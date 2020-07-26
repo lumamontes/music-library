@@ -19,13 +19,4 @@
 <a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
 
 
-
-# Dicas
-
-## Cores:
-Preto: #040517;
-Branco: #e5e5e5e7;<br>
-Azul: rgb(32, 15, 86);
-
-
 Desafio criado por  <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a> :)
