@@ -95,15 +95,40 @@ display: flex;
     display: flex;
 }
 .playlists .playlist-card {
-    width: 300px;
-    margin-left: 20px;
+    width: 400px;
+    margin-right: 20px;
+
     /* border: 1px solid black; */
 }
 .playlists .playlist-card img {
-    width: 100%;
+    width: 300px;
     height: 200px;  
     border-radius: 8px;
     object-fit: cover;
 }
 
+section.grad-container {
+    width: 100%;
+    padding: 20px 5%;
+    display: flex;
+}
 
+section.grad-container .profile-views {
+    width: 30%;
+
+}
+
+section.grad-container .profile-views img{
+    width: 100px;
+    height: 100px;
+}
+
+section.grad-container .profile-views {
+    width: 50%;
+}   
+
+section.grad-container .profile-views .profile-card {
+    display: flex;
+    align-items: center;
+    
+}
